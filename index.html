@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Zsofi Jakatics ◦ portfolio</title>
+</head>
+<body>
+    <main>
+            <div class="reflect">
+               <a href="/portfolio.html"><h6 data-text="portfolio">portfolio</h6></a>
+            </div>
+
+            <div class="image-wrapper tint" onmouseover="document.getElementById('lead').style.color='#ffe5b4';" onmouseout="document.getElementById('lead').style.color='#fffeac';">
+                <img id="profile-photo" src="/images/montserrat.jpg" alt="glad on Montserrat"> 
+            </div>
+            <div class="text-wrapper">
+                <h4 id="lead">I'm Sofie, a mostly self-taught junior frontend web designer, Nordic enthusiast and creative mind living in Oslo.</h4>
+            </div>  
+        <div class="facts">
+            <div class="list-wrapper tinted"> 
+                <ul id="first">
+                    <li>Fun facts</li>
+                    <li>I like &nbsp;<span id="frst">c</span><span id="scnd">o</span><span id="thrd">l</span><span id="frth">o</span><span id="ffth">r</span><span id="sxt">s</span>, nature & <u><a onclick="showPicture()">DIY</a></u></li>
+                    <li>I'm collecting banana label stickers, flyers & pamphlets: basically anything with nice design</li>
+                    <li>Once I tried to restore an icon and it turned out like the Ecce Homo frecso fiasko in Borja</li>
+                    <li>Ok I'm just kidding, it turned out like <u><a onclick="showPictureTwo()">this</a></u></li>
+                    <br>
+                    <li>I'd like to...</li>
+                    <li>become an expert in JavaScript</li>
+                    <li>learn basic animation</li>
+                    <li>& pottery</li>
+                </ul>
+            </div>
+        </div>
+        <img style="display:none;" id="diypic" src="diypic" />
+        <img style="display:none;" id="restauration" src="restauration" />
+    </main>
+    <footer>
+        <div class="media-icons">
+            <a href="https://gitlab.com/zsofija"><i class="fab fa-gitlab fa-2x"></i></a>
+            <a href="https://github.com/zsofija"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/zsófia-jakatics-b46a2b168"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://flic.kr/ps/3nJznT"><i class="fab fa-flickr fa-2x"></i></a>
+            
+        </div>
+    </footer>
+
+<script type="text/javascript">
+    function showPicture() {
+    var sourceOfPicture = "/images/diy.png";
+    var img = document.getElementById('diypic')
+    img.src = sourceOfPicture.replace('50x50', '125x125');
+    img.style.display = "inline-block";
+    setTimeout(hide, 2000);
+
+    function hide() {
+    img.style.display = 'none';
+    }
+} 
+function showPictureTwo() {
+    var sourceOfPicture = "/images/restore.png";
+    var img = document.getElementById('restauration')
+    img.src = sourceOfPicture.replace('50x50', '125x125');
+    img.style.display = "inline-block";
+    setTimeout(hide, 2000);
+
+    function hide() {
+    img.style.display = 'none';
+    }
+}
+
+</script>
+
+
+</body>
+</html>
