@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./portfolio.css" type="text/css" />
+
+    <title>Portfolio ◦ Zsofi Jakatics</title>
+</head>
+<body>
+    <section>
+        <div id="first-block">
+            <h1 id="prj-1">Project 01</h1>
+            <div class="intro-text">
+                <p>Landing page for spiring.no</p> 
+                <p>for live version visit <a href="https://bestill.spiring.no/">bestill.spiring.no</a></p>
+            </div>
+        </div>
+        
+        <div id="image-carousel" class="carousel carousel-first carousel-dark slide" data-bs-ride="carousel" onmouseover="document.getElementById('first-block').style.display='none';" onmouseout="document.getElementById('first-block').style.display='inline-block';">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="/images/spiring_landing1.png" class="d-block w-100" alt="spiring landing page">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/spiring_landing2.png" class="d-block w-100" alt="spiring landing page">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/spiring_landing3.png" class="d-block w-100" alt="spiring landing page">
+                </div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#image-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                
+            </button>
+        </div>
+        <div id="image-carousel-mobile" class="carousel carousel-first-mobile carousel-dark slide" data-bs-ride="carousel" onmouseover="document.getElementById('first-block').style.display='none';" onmouseout="document.getElementById('first-block').style.display='inline-block';">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="/images/land_mob1.png" class="d-block w-100 h-80" alt="spiring landing page">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/land-mob2.png" class="d-block w-100 h-80" alt="spiring landing page">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/land-mob3.png" class="d-block w-100 h-80" alt="spiring landing page">
+                </div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#image-carousel-mobile" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                
+            </button>
+        </div>
+       
+    </section>
+        
+    <section style="display: flex; justify-content: center;">
+        <div id="second-block">
+            <h1 id="prj-2">Project 02</h1>
+            <div class="second">
+                <p>Spiring.no redesign</p> 
+                <p>a reusable css theme combined with twig</p>
+            </div>
+        </div>
+        <div class="video-content" id="noborder" onmouseover="document.getElementById('noborder').classList.add('foreground');" onmouseout="document.getElementById('noborder').classList.remove('foreground');">
+            <video id="v1" controls width="550">
+
+                <source src="/images/video/spiring_homepage.webm"
+                        type="video/webm">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+            <video id="v2" controls width="450">
+
+                <source src="/images/video/newspage.webm"
+                        type="video/webm">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+            <video id="v3" controls width="350">
+
+                <source src="/images/video/subpage.webm"
+                        type="video/webm">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+        </div>
+
+    </section>
+    <section class="trd-section">
+        <div id="third-block">
+            <h1 id="prj-3">Project 03</h1>
+            <div class="third">
+                <p>Specify</p> 
+                <p>a web application for inventory</p>
+                <p>ongoing project</p>
+            </div>
+        </div>
+        <div id="img-carousel" class="carousel carousel-second carousel-dark slide" data-bs-ride="carousel" onmouseover="document.getElementById('third-block').style.display='none';" onmouseout="document.getElementById('third-block').style.display='inline-block';">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="/images/spec_login.png" class="d-block w-100 h-90" alt="specify login page">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/spec_home.png" class="d-block w-100 h-90" alt="specify home page">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/spec_scan.png" class="d-block w-100 h-90" alt="specify scanning page">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/spec_details.png" class="d-block w-100 h-90" alt="specify accept details page">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/spec_statistics.png" class="d-block w-100 h-90" alt="specify choose statistics page">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/spec_edit.png" class="d-block w-100 h-90" alt="specify edit item page">
+                </div>
+                
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#img-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                
+            </button>
+        </div>
+        <div id="tablet">
+            <img src="/images/spec_tablet.png" class="" alt="specify tablet version">
+        </div>
+    </section>
+
+    <section class="frth-section">
+        <div id="fourth-block">
+            <h1 id="prj-4">Desktop Publishing</h1>
+            <div class="fourth">
+                <p>hobby projects *illustration, logo, flyer, poster, brochures</p>
+            </div>
+        </div>
+        <img id="illustration" src="/images/glädje_whales.png" alt="whales illustration">
+        <img id="logo" src="/images/logo.png" alt="Paprika Spray logo">
+        <div id="pdf-container">
+            <!-- <embed src="./files/dtp_materials_compressed.pdf" type="application/pdf" width="100%" height="600px" /> -->
+
+            <!-- <object data="../files/dtp_materials_compressed.pdf" type="application/pdf" width="100%" height="600px">
+                <iframe src="../files/dtp_materials_compressed.pdf" style="border: none;" width="100%" height="600px">
+                This browser does not support PDFs. Please download the PDF to view it: 
+                <a href="../files/dtp_materials_compressed.pdf">Download PDF</a>
+                </iframe>
+            </object> -->
+        </div>
+        <div class="contact-section">
+            <h6>contact</h6>
+            <p>zsofijakatics@gmail.com</p>
+            <p>+4746121039</p>
+            <p>You can find my contributed/ongoing projects on <a href="https://gitlab.com/zsofija"><i class="fab fa-gitlab fa-1x"></i></a>&nbsp;-&nbsp;individual/finished projects are on <a href="https://github.com/zsofija"><i class="fab fa-github fa-1x"></i></a></p> 
+        </div>
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.5/pdfobject.js'></script>
+<script>
+//Be sure your document contains an element with the CSS selector "#pdf-container"
+PDFObject.embed("../files/dtp_materials_compressed.pdf", "#pdf-container");
+</script>
+
+
+
+</body>
+</html>

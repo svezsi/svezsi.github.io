@@ -1,0 +1,1190 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 10%;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+h1 {
+    font-size: 5em;
+    margin-top: -55px;
+    color: #22202082; /*#999;*/
+    z-index: 2;
+}
+#prj-1 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.intro-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 320px;
+    z-index: 2;
+}
+p {
+    font-size: 1.5em;
+    z-index: 2;
+    color: #020202ba; /* #59564b;*/
+    margin-bottom: 0.8rem;
+}
+a {
+    text-decoration: none;
+    color:#b39013; /*#59564b;*/
+}
+#first-block::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 122px;
+    bottom: 456px;
+    left: 0px;
+    right: 55vw; /*793px;*/
+    background: #e8c547ed; /*#e8c547e0;*/
+    transition: background .3s linear;
+    z-index: 1;
+}
+
+
+#prj-2 {
+    position: absolute;
+    top: 108%; /*95%;*/
+    right: 10%; 
+}
+.second {
+    position: absolute;
+    top: 114%; /*100%;*/
+    right: 15%;
+    width: 320px;
+    z-index: 2;
+}
+.video-content {
+    position: absolute;
+    top: 125%; /* 115*/
+    /* left: 15%; */
+    display: flex;
+    justify-content: center;
+}
+#second-block::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 890px;
+    bottom: -400px;
+    right: -42px;
+    left: 55vw; /*977px;*/
+    border: 5px solid #820263cc;
+    z-index: 1;
+    border-radius: 40px;
+}
+.foreground {
+    z-index: 10;
+}
+
+.trd-section {
+    position: relative;
+    top: 116vh;
+}
+
+#prj-3 {
+    position: absolute;
+    top: 6%;
+    left: 0%;
+}
+.third {
+    position: absolute;
+    top: 14%; /*100%;*/
+    left: 0%;
+    width: 320px;
+    z-index: 2;
+}
+#third-block::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -80px;
+    bottom: 420px;
+    left: -10vw;
+    right: 45vw; /*625px;*/
+    background: #e8c547e0;
+    transition: background .3s linear;
+    z-index: 1;
+}
+#tablet {
+    position: absolute;
+    top: -40px;
+    left: 49%; /*54%;*/
+    z-index: -1;
+}
+#tablet img {
+    width: 500px;
+    height: 685px;
+    filter: brightness(90%);
+}
+
+.frth-section {
+    position: relative;
+    top: 140vh;
+}
+
+#prj-4 {
+    position: absolute;
+    top: 6%;
+    right: 0%; 
+}
+.fourth {
+    position: absolute;
+    top: 14%;
+    right: 0%;
+    width: 320px;
+    z-index: 2;
+}
+#illustration {
+    margin-top: 8vh;
+}
+#logo {
+    width: 370px;
+    margin-top: 21vh;
+}
+.pdfobject-container {
+    width: 100%;
+    height: 600px;
+}
+
+.contact-section {
+    margin-top: 10%;
+    background: #820263;
+    width: 100vw;
+    position: absolute;
+    left: -10vw;
+    padding: 10px 15px;
+}
+h6 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #e8c547;
+
+}
+.contact-section p {
+    margin-bottom: 0 !important;
+    font-size: 1.1em;
+    font-weight: lighter;
+    color: white;
+}
+.fab {
+    color: #e8c547;
+}
+#pdf-container {
+    text-align: center;
+}
+
+
+/* Slideshow container */
+.carousel-first {
+  max-width: 60vw;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.carousel-first-mobile {
+    display: none;
+}
+.carousel-second {
+    width: 360px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 27%; /* new*/
+}
+.h-90 {
+    height: 740px !important;
+}
+
+
+
+/*Mobile */
+@media screen and (max-width: 767px){
+    body {
+        margin: 2%;
+    }
+    .carousel-first {
+        display: none;
+    }
+    .carousel-first-mobile {
+        display: inline-block;
+        /* width: 63vw;
+        margin-left: 68px; */
+        margin-top: 50px !important;
+        width: 325px; /*340*/
+        height: auto;
+        position: relative;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-control-next-icon {
+        width: 1.5rem;
+    }
+    .h-80 {
+        height: 560px; /*566px !important;*/
+    }
+    h1 {
+        font-size: 3.5em;
+        margin-top: -120px;
+        z-index: 2;
+    }
+    p {
+        font-size: 1.3em;
+    }
+    .intro-text {
+        position: absolute;
+        top: 20%;
+    }
+    #first-block::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 45px;
+        right: 7vw;
+        z-index: 2;
+    }
+    #prj-2 {
+        top: 119%;
+        
+    }
+    .second {
+        top: 113%;
+        right: 2%;
+    }
+    #second-block::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 750px; 
+        bottom: -266px;
+        right: -42px;
+        left: 7vw;
+        border: 5px solid #820263cc;
+        z-index: 1;
+        border-radius: 40px;
+    }
+    .video-content {
+        position: absolute;
+        top: 124%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #v1, #v2, #v3 {
+        width: 100vw !important;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .trd-section {
+        position: relative;
+        top: 149vh;
+    }
+    #prj-3 {
+        left: 10%;
+    }
+    .third {
+        position: absolute;
+        top: 0%;
+        left: 10%;
+    }
+    #third-block::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -105px;
+        bottom: 560px; 
+        left: -10vw;
+        right: 3vw;
+    }
+    #tablet {
+        display: none;
+    }
+    .carousel-second {
+        width: 360px; /*340px;*/
+        height: auto;
+        position: relative;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-left: 4.5%;
+    }
+    .h-90 {
+        height: 590px; /*672px !important;*/
+    }
+    .frth-section {
+        position: relative;
+        top: 175vh;
+    }
+    #prj-4 {
+        position: absolute;
+        top: 6%;
+        left: 15%; 
+    }
+    .fourth {
+        top: 10%;
+        left: 15%;
+    }
+    #illustration {
+        width: 100vw;
+        margin-top: 15vh;
+        padding-right: 10px;
+    }
+    #logo {
+        width: 250px;
+        margin-left: 18vw;
+        margin-top: 2vh;
+    }
+    .contact-section {
+        margin-top: 10%;
+        background: #820263;
+        width: 101vw;
+        position: absolute;
+        left: -1.2vh;
+        padding: 10px 15px;
+    }
+    .contact-section p {
+        font-size: 1em;
+        color: white;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .carousel-first {
+        width: 630px;
+        max-width: 80vw;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    p {
+        font-size: 1.4em;
+    }
+    #prj-1 {
+        position: absolute;
+        top: 15%
+    }
+    .intro-text {
+        position: absolute;
+        top: 19%;
+    }
+    #first-block::before {
+        top: 63px;
+        bottom: 683px;
+        left: 0px;
+        right: 43vw;
+    }
+    #prj-2 {
+        position: absolute;
+        top: 67%;
+    }
+    .second {
+        position: absolute;
+        top: 72%;
+        right: 11%;
+    }
+    #second-block::before {
+        top: 587px;
+        bottom: 84px;
+        right: -42px;
+        left: 40vw;
+    }
+    .video-content {
+        position: absolute;
+        top: 86%;
+        left: 15%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #v1, #v2, #v3 {
+        width: 550px;
+    }
+    .third {
+        position: absolute;
+        top: 12%;
+    }
+    .trd-section {
+        position: relative;
+        top: 155vh;
+    }
+    .carousel-second {
+        margin-left: 0%;
+    }
+    #tablet {
+        left: 30%;
+    }
+    #tablet img {
+        width: 450px;
+        height: 625px;
+    }
+    #third-block::before {
+        top: -61px;
+        bottom: 450px;
+        left: -10vw;
+        right: 32vw;
+    }
+    
+    .frth-section {
+        position: relative;
+        top: 166vh;
+    }
+    #prj-4 {
+        position: absolute;
+        top: 6%;
+        right: 0%;
+        text-align: right;
+    }
+    .fourth {
+        position: absolute;
+        top: 16%;
+    }
+    #illustration {
+        margin-top: 20vh;
+        width: 100vw;
+        margin-right: 48vw;
+        margin-left: -10vw;
+    }
+    #logo {
+        width: 330px;
+        margin-left: 19vw;
+        margin-top: 3vh;
+    }
+}
+
+/* Samgung Galaxy S9 */
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (min-device-height: 740px) and (max-device-height: 740px) {
+    
+    #first-block::before {
+        top: 39px;
+        right: 4vw;
+        
+    }
+    #second-block::before {
+        bottom: -255px;
+        left: 6vw;
+        top: 710px;
+    }
+    #prj-1 {
+        left: 8%;
+    }
+    .intro-text {
+        left: 8%;
+    }
+    #prj-2 {
+        right: 7%;
+    }
+    .second {
+        right: -2%;
+    }
+    
+    .carousel-second {
+        width: 320px;
+        margin-left: 3%;
+    }
+    .h-90 {
+        height: 650px !important;
+    }
+    #third-block::before {
+        right: 2vw;
+        bottom: 481px;
+    }
+    #prj-3 {
+        left: 8%;
+    }
+    .third {
+        left: 8%;
+    }
+    #prj-4, .fourth {
+        left: 10%;
+    }
+    
+    #logo {
+        margin-left: 15vw;
+    }
+}
+/* Samsung Galaxy S10 */
+@media only screen and (min-device-width: 360px) and (max-device-width: 760px) and (min-device-height: 760px) and (max-device-height: 760px) {
+    #second-block::before {
+        bottom: -255px;
+        left: 6vw;
+        top: 697px !important;
+        right: -50px;
+    }
+}
+/* Iphone 6/7/8 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (min-device-height: 667px) and (max-device-height: 667px) {
+    .carousel-first-mobile {
+        width: 325px;
+    }
+    #first-block::before {
+        top: 26px;
+        right: 5vw;
+        bottom: 408px;
+        bottom: 408px;
+    }
+    #prj-2 {
+        top: 129%;
+    }
+    .second {
+        top: 122%;
+    }
+    #second-block::before {
+        bottom: -296px;
+        top: 700px;
+    }
+    .video-content {
+        top: 134%;
+    }
+
+    .trd-section {
+        top: 165vh;
+    }
+    .carousel-second {
+        margin-left: 0%;
+    }
+    #third-block::before {
+        right: 2vw;
+    }
+    .frth-section {
+        top: 185vh;
+    }
+    #prj-4, .fourth {
+        left: 13%;
+    }
+    #illustration {
+        width: 100vw;
+        margin-top: 16vh;
+    }
+    
+}
+/* Pixel 2, Iphone 6/7/8 Plus */
+@media only screen and (min-device-width: 411px) and (max-device-width: 736px) and (max-device-height: 736px) {
+    #first-block::before {
+        right: 7vw;
+    }
+    #second-block::before {
+        top: 725px;
+        bottom: -250px;
+    }
+    .carousel-second {
+        margin-left: 4%;
+    }
+    .trd-section {
+        position: relative;
+        top: 160vh;
+    }
+    #third-block::before {
+        bottom: 555px;
+    }
+    .h-90 {
+        height: 725px !important;
+    }
+    .fourth {
+        top: 9%;
+    }
+    .frth-section {
+        position: relative;
+        top: 185vh;
+    }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (max-device-height: 736px) {
+    .carousel-second {
+        margin-left: 4.5%;
+    }
+    #first-block::before {
+        right: 7vw;
+    }
+}
+
+/* Extra Large mobile - Iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (min-device-height: 812px) and (max-device-height: 812px) {
+    #prj-1, .intro-text {
+        left: 7%;
+    }
+    #first-block::before {
+        right: 3vw;
+        top: 30px;
+        bottom: 482px;
+    }
+    #prj-2 {
+        top: 112%;
+        right: 7%;
+    }
+    .second {
+        right: -2%;
+        top: 108%;
+    }
+    #second-block::before {
+        top: 753px;
+        bottom: -229px;
+    }
+    .video-content {
+        position: absolute;
+        top: 121%;
+    }
+    .trd-section {
+        position: relative;
+        top: 152vh;
+    }
+    #prj-3, .third {
+        left: 7%;
+    }
+    .carousel-second {
+        margin-left: 1%;
+    }
+    #third-block::before {
+        bottom: 555px;
+        right: 1vw;
+    }
+    #prj-4, .fourth {
+        left: 13%;
+    }
+    .fourth {
+        top: 9%;
+    }
+}
+/*  Moto G4, Galaxy S5 */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (max-device-height: 640px) {
+    .carousel-first-mobile {
+        margin-top: 20px !important;
+        width: 325px;
+        margin-left: 3%;
+    }
+    .h-80 {
+        height: 555px !important;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    #prj-1 {
+        left: 5%;
+    }
+    .intro-text {
+        position: absolute;
+        top: 17%;
+        left: 5%;
+    }
+    #first-block::before {
+        top: 14px;
+        right: 2vw;
+        bottom: 412px;
+        z-index: 2;
+    }
+    #prj-2 {
+        right: 20%;
+        top: 120%;
+    }
+    .second {
+        width: 270px;
+        top: 112%;
+        right: 13%;
+    }
+    #second-block::before {
+        top: 620px;
+        bottom: -210px;
+    }
+    .carousel-second {
+        width: 325px;
+        margin-left: 3%;
+    }
+    .h-90 {
+        height: 660px !important;
+    }
+    #prj-3 {
+        top: 9%;
+        left: 5%;
+    }
+    .third {
+        width: 270px;
+        left: 5%;
+    }
+    #third-block::before {
+        top: -105px;
+        bottom: 501px;
+        right: 0vw;
+    }
+    #prj-4 {
+        left: 21%;
+    }
+    .fourth {
+        top: 7%;
+        left: 21%;
+        width: 265px;
+    }
+    #illustration {
+        width: 100vw;
+        margin-top: 16vh;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    #logo {
+        margin-left: 12vw;
+
+    }
+    .contact-section p {
+        font-size: 0.8em;
+    }
+    .contact-section {
+        padding: 10px 7px;
+    }
+}
+/* Extra Large mobile - Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (min-device-height: 823px) and (max-device-height: 823px) {
+    #first-block::before {
+        right: 5vw;
+        bottom: 513px;
+    }
+    #prj-2 {
+        top: 115%;
+    }
+    .second {
+        top: 111%;
+    }
+    #second-block::before {
+        top: 778px;
+    }
+    #third-block::before {
+        bottom: 530px;
+        right: 3vw;
+    }
+    .trd-section {
+        position: relative;
+        top: 151vh;
+    }
+    .fourth {
+        top: 10%
+    }
+}
+/* Extra small mobile */
+@media only screen and (min-device-width: 320px) and (min-device-height: 568px) and (max-device-height: 568px) {
+    .carousel-first-mobile {
+        width: 309px;
+        margin-left: 0%;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    #first-block::before {
+        top: 22px;
+        right: 11vw;
+        bottom: 334px;
+    }
+    #prj-1 {
+        position: absolute;
+        top: 29%;
+        left: 5%;
+    }
+    .intro-text {
+        left: 5%;
+    }
+    #prj-2 {
+        top: 144%;
+        right: 2%;
+    }
+    .second {
+        top: 134%;
+        right: -7%;
+        width: 275px;
+    }
+    .video-content {
+        position: absolute;
+        top: 148%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    #second-block::before {
+        top: 683px;
+        bottom: -312px;
+        right: -78px;
+        left: 10vw;
+    }
+    .carousel-second {
+        width: 310px;
+        margin-left: 0%;
+    }
+    .h-90 {
+        height: 650px !important;
+    }
+    .trd-section {
+        top: 163vh;
+    }
+    #prj-3 {
+        left: 5%;
+    }
+    #third-block::before {
+        right: 8vw;
+        left: -5vw;
+    }
+    .third {
+        position: absolute;
+        top: -3%;
+        left: 5%;
+        width: 270px;
+    }
+    .frth-section {
+        top: 190vh;
+    }
+    .fourth {
+        width: 295px;
+        top: 8%;
+        left: 15%;
+
+    }
+    #illustration {
+        margin-left: 8%;
+        margin-top: 18vh;
+    }
+    #logo {
+        width: 250px;
+        margin-left: 12vw;
+    }
+    .contact-section {
+        width: 110vw;
+        position: absolute;
+        left: -2vw;
+    }
+    #pdf-container {
+        margin-left: 0%;
+        width: 100vw;
+        height: 400px;
+    }
+    .contact-section {
+        width: 105vw;
+    }
+    .contact-section p {
+        font-size: 0.8em;
+    }
+}
+/* Galaxy Fold*/
+@media only screen and (min-device-width: 280px) and (max-device-width: 653px) and (min-device-height: 653px) and (max-device-height: 653px){
+    .carousel-first-mobile {
+        width: 280px;
+        margin-left: -2%;
+    }
+    .h-80 {
+        height: 515px !important;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    #first-block::before {
+        top: 24px;
+        right: 3vw;
+        bottom: 414px;
+    }
+    #prj-1, .intro-text {
+        left: 3%;
+    }
+    #prj-2 {
+        right: 3%;
+    }
+    .second {
+        right: -7%;
+        width: 275px;
+    }
+    #second-block::before {
+        top: 625px;
+        bottom: -209px;
+        right: -42px;
+        left: 3vw;
+    }
+    .trd-section {
+        position: relative;
+        top: 135vh;
+    }
+    .third {
+        top: -3%;
+        left: 3%;
+        width: 275px;
+    }
+    #prj-3 {
+        left: 3%;
+    }
+    #third-block::before {
+        right: 2vw;
+        bottom: 402px;
+    }
+    .carousel-second {
+        width: 275px;
+        margin-left: -1%;
+    }
+    .h-90 {
+        height: 525px !important;
+    }
+    .frth-section {
+        position: relative;
+        top: 156vh;
+    }
+    #prj-4, .fourth {
+        left: 7%;
+    }
+    .fourth {
+        width: 260px;
+    }
+    #illustration {
+        margin-top: 19vh;
+    }
+    #logo {
+        margin-left: 9vw;
+        width: 215px;
+    }
+    .pdfobject-container {
+        height: 400px;
+    }
+    .contact-section p {
+        font-size: 0.8em;
+    }
+}
+/* Desktop other */
+@media only screen and (min-width: 1384px) and (max-width: 1452px) {
+    #logo {
+        width: 310px;
+        margin-top: 23vh;
+        float: right;
+        z-index: 2;
+    }
+    .contact-section {
+        margin-top: 0%;
+        background: #820263;
+        width: 100vw;
+        position: absolute;
+        left: -10vw;
+        padding: 10px 15px;
+        bottom: -30vh;
+    }
+}
+@media only screen and (min-width: 1287px) and (max-width: 1385px) {
+    #logo {
+        width: 310px;
+        margin-top: -7vw;
+        float: right;
+        z-index: 2;
+    }
+    .contact-section {
+        margin-top: 0%;
+        background: #820263;
+        width: 100vw;
+        position: absolute;
+        left: -10vw;
+        padding: 10px 15px;
+        bottom: -30vh;
+    }
+    #prj-2 {
+        position: absolute;
+        top: 85vh;
+    }
+    .second {
+        position: absolute;
+        top: 92vh;
+        right: 17%;
+    }
+    #second-block::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 76vh;
+        bottom: -12vh;
+    }
+    .video-content {
+        position: absolute;
+        top: 103vh;
+    }
+}
+@media only screen and (min-width: 1213px) and (max-width: 1287px) {
+    #logo {
+        width: 370px;
+        margin-top: 0vw;
+        float: right;
+    }
+    .contact-section {
+        margin-top: 0%;
+        background: #820263;
+        width: 100vw;
+        position: absolute;
+        left: -10vw;
+        padding: 10px 15px;
+        bottom: -50vh;
+    }
+    #prj-2 {
+        position: absolute;
+        top: 85vh;
+    }
+    .second {
+        position: absolute;
+        top: 92vh;
+        right: 17%;
+    }
+    #second-block::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 76vh;
+        bottom: -12vh;
+    }
+    .video-content {
+        position: absolute;
+        top: 103vh;
+    }
+    
+}
+@media only screen and (min-width: 1165px) and (max-width: 1212px) {
+    #logo {
+        width: 370px;
+        margin-top: 0vw;
+        float: right;
+    }
+    .contact-section {
+        margin-top: 0%;
+        background: #820263;
+        width: 100vw;
+        position: absolute;
+        left: -10vw;
+        padding: 10px 15px;
+        bottom: -50vh;
+    }
+    #prj-2 {
+        position: absolute;
+        top: 85vh;
+    }
+    .second {
+        position: absolute;
+        top: 92vh;
+        right: 17%;
+    }
+    #second-block::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 76vh;
+        bottom: -12vh;
+    }
+    .video-content {
+        position: absolute;
+        top: 103vh;
+    }
+    #first-block::before {
+        right: 53vw;
+    }
+    #second-block::before {
+        left: 52vw;
+    }
+    #third-block::before {
+        right: 42vw;
+    }  
+}
+
+/* Surface Duo */
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px) and (min-device-height: 720px) and (max-device-height: 720px){
+    #first-block::before {
+        bottom: 450px;
+    }
+    #second-block::before {
+        top: 700px;
+    }
+    #v1, #v2, #v3 {
+        width: 98vw !important;
+        margin-left: 6px;
+    }
+    .trd-section {
+        position: relative;
+        top: 187vh;
+    }
+    .carousel-second {
+        margin-left: 15.5%;
+    }
+    .frth-section {
+        position: relative;
+        top: 212vh;
+    }
+    #logo {
+        width: 250px;
+        margin-left: 25vw;
+    }
+}
+/* Ipad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (min-device-height: 1366px) and (max-device-height: 1366px){
+    .carousel-first {
+        width: 720px;
+        max-width: 80vw;
+    }
+    #first-block::before {
+        top: 117px;
+        bottom: 962px;
+    }
+    #prj-2 {
+        position: absolute;
+        top: 60%;
+    }
+    .second {
+        position: absolute;
+        top: 64%;
+    }
+    #second-block::before {
+        top: 677px;
+        bottom: 274px;
+    }
+    .video-content {
+        position: absolute;
+        top: 73%;
+        left: 20%;
+    }
+    #v1, #v2, #v3 {
+        width: 62vw !important;
+    }
+    .trd-section {
+        position: relative;
+        top: 137vh;
+    }
+    .carousel-second {
+        margin-left: 9%;
+    }
+    #tablet {
+        left: 40%;
+    }
+    .frth-section {
+        position: relative;
+        top: 150vh;
+    }
+    .fourth {
+        position: absolute;
+        top: 10%;
+    }
+    #illustration {
+        margin-top: 17vh;
+        width: 99vw;
+    }
+    #logo {
+        width: 330px;
+        margin-left: 24vw;
+        margin-top: 2vh;
+    }
+    .contact-section {
+        margin-top: 10%;
+        background: #820263;
+        width: 101vw;
+    }
+}
